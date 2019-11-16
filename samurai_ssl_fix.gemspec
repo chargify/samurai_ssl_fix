@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/samurai_ssl_fix'
 
   s.add_dependency "activeresource", "~> 4.0.0"
-  s.add_dependency "activesupport", "~> 4.0.13"
+  s.add_dependency "activesupport", ">= 4.0.13", "< 6.1.0"
 end
